@@ -11,7 +11,7 @@ const connectDB = async ()=>{
     } 
     catch(error){
         console.error(`you stupid this thing is wrong, look -> ${error}`);
-        process.exit()
+        process.exit(1)
     }
 }
 export default connectDB
